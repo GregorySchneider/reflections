@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 A hidden folder .git is created for the repository. Zero commits performs. Run git status to check state and then run git add toi add files to the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area allows you to add multiple files using seperate "add" commands, so you can group files which are related and then "commit" them as a single check in. The working directory will contain both checked in and non checked-in files, it is also the location of the actual repository, which resides in a hidden sub folder ".git".
