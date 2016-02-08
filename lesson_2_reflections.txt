@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden folder .git is created for the repository. Zero commits performs. Run git status to check state and then run git add toi add files to the repository.
